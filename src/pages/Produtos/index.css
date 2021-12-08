@@ -1,0 +1,71 @@
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+th{
+    justify-content: center;
+
+}
+
+table{
+    width: 800px;
+}
+
+tr{
+    text-align: center;
+    vertical-align: middle;
+}
+td{
+    width: 100px;
+}
+
+input {
+    margin: 3px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+    height: 20px;
+    font-size: 15px;
+
+}
+.excluir{
+    color: white;
+    background-color: red;
+    
+}
+.editar{
+    color: white;
+    background-color: green;
+}
+
+
+@media screen and (max-width:800px) {
+
+    table{
+        width: 300px;
+        
+    }
+
+    td{
+        width: 50px;
+    }
+
+    input{
+        margin: 1px 5px;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 40px;
+        height: 15px;
+        font-size: 10px;
+    
+    }
+    table{
+        font-size: 15px;
+    }
+
+
+    
+}
