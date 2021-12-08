@@ -4,15 +4,7 @@ import { NavBar } from "../../styles/geral-styles";
 
 import { Link, useLocation } from "react-router-dom";
 
-import storage from "../../utils/storage";
-
-
-
 const Menu = () =>{
-    const logout = () =>{
-       storage.removerAutenticacao()
-       window.open("/login","_self")
-    }
 
     if(useLocation().pathname !== "/login"){
 
@@ -33,7 +25,7 @@ const Menu = () =>{
                     </li>
 
                     <li>
-                        <a href = "#" onClick = {logout}>Sair</a>
+                        <Link to="/login">Sair</Link>
                         
                     </li>
                 </NavBar>
