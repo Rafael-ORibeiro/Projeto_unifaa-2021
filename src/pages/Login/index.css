@@ -1,0 +1,36 @@
+.logo {
+
+    
+    width:100%;
+    text-align:center;
+    margin:auto;
+    margin-bottom:30px;
+    padding:10px;
+    color:var(--cor-primaria);
+}
+
+.esqueci-senha {
+
+    text-align: right;
+    font-size: 12px;
+    
+}
+.esqueci-senha>a{
+    text-decoration:none;
+    font-style: italic;
+    color: var(--cor-primaria);
+}
+
+.link{
+    text-decoration: none;
+    background-color: var(--cor-primaria);
+    color:white;
+    padding:10px 15px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+}
+.input{
+    width: 10px;
+    height: 10px;
+}
